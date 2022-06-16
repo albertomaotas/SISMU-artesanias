@@ -50,13 +50,18 @@
           <div class="btn_hamburguesa"></div>
         </div>
       </div>
+
       <%# LOGO SISMU %>
+      
       <div id="perfil_menu" title="Perfíl">
         <div id="foto_menu">
           <%#link_to image_tag("<%= @profile.foto "), profiles_path(@profile) %>
-          <%=link_to image_tag("logo_completo_sandra_munoz"), profiles_path(@profile) %>
+          
+          <%#link_to image_tag(@profile.avatar.url), profiles_path(@profile) %>
+        
         </div>
-      </div>
+      
+        </div>
       <%# ITEMS_MENU %>
       <div id="menu_items">
         <div class="item_menu" title="Productos">

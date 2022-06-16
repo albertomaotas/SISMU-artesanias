@@ -93,7 +93,7 @@ main {
 nav {
   background-color: var(--bgcolor);
   border: 1px solid var(--hovercolor);
-  margin-top: -18px;
+  /* margin-top: -18px; */
   height: 50px;
   display: flex;
   justify-content: space-between;

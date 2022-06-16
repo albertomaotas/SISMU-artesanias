@@ -6,6 +6,10 @@
           <%= image_tag "iconos/producto_blanco", class: "minilogo_grid" %>
         </span>
       </div>
+      <div>
+      <%= link_to "edit account", edit_user_registration_path %>
+      </div>
+      <%= image_tag(current_user.avatar_thumbnail) %>
       <div class="panelContador__contador">
         <span class="span_angulo_derecho">
           <span><%= Producto.count %></span>

@@ -138,8 +138,8 @@ tr, td,th{
 .formulario{
 
   border-radius: 10px;
-  width: 280px;
-  height: 320px;
+  /* width: 400px;
+  height: 320px; */
   margin: auto;
   /* box-shadow: 3px 3px goldenrod, -1em 0 0.4em goldenrod; */
   /* box-shadow: 60px -16px #F5B041; */
